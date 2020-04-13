@@ -65,3 +65,177 @@ header {
 	font-size: 20px;
 	padding-top: 10px;
 }
+
+.portfolio {
+	background-color: #ECEFF1;
+	text-align: center;
+}
+
+.pf-title {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+}
+
+.pf-title::after {
+	content: "";
+	height: 3px;
+	width: 70px;
+	display: block;
+	background-color: #EC715F;
+	margin: 8px auto 0;
+}
+
+.pf-text {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 30px;
+}
+
+.images {
+	width: 920px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.image {
+	width: 300px;
+	height: 250px;
+	margin: 10px 10px 0 0;
+	background-size: cover;
+	background-position: center;
+	float: left
+}
+
+.image:nth-child(3n) {
+	margin: 10px 0 0 0;
+}
+
+.image:nth-child(-n+3) {
+	margin-top: 0;
+}
+
+.bg1 {
+	background-image: url(img/sketch.jpg);
+}
+
+.bg2 {
+	background-image: url(img/websuku.png);
+}
+
+.bg3 {
+	background-image: url(img/write.jpg);
+}
+
+.bg4 {
+	background-image: url(img/webcamp.png);
+}
+
+.bg5 {
+	background-image: url(img/talk.jpg);
+}
+
+.bg6 {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.feauture {
+	text-align: center;
+}
+
+.ft-title {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+}
+
+.ft-title::after {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 8px auto 0;
+}
+
+.ft-text {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 30px;
+}
+
+.strengths {
+	width: 980px;
+	padding: 30px 0 90px;
+	margin: 0 auto;
+}
+
+.strength {
+	width: 320px;
+	height: auto;
+	padding-right: 10px;
+	float: left;
+}
+
+.strength:nth-child(3) {
+	padding-right: 0;
+}
+
+.fa {
+	font-size: 60px;
+}
+
+.st-title {
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0 10px;
+}
+
+.st-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: start;
+}
+
+.profile {
+	background-color: #ECEFF1;
+	text-align: center;
+}
+
+.introduction {
+	width: 1024px;
+	padding-top: 30px;
+	text-align: left;
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+.id-image {
+	background-image: url(img/my-icon.jpg);
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.right {
+	float: right;
+	width: 50%;
+}
+
+.id-title {
+	font-size: 20px;
+	margin: 20px 0 5px;
+}
+
+.id-title:nth-child(1) {
+	margin-top: 0;
+}
+
+.id-text {
+	font-size: 16px;
+	color: #000000;
+}
